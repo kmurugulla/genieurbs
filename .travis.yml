@@ -1,0 +1,11 @@
+branches:
+  only:
+  - master
+deploy:
+  provider: s3
+  access_key_id: AKIAIJUBUSFHFF64FB4Q
+  secret_access_key:
+    secure: WxqyiK8MfZTusd8XqiAoM+KaR6fcY3xXGc9ThAvk0zgmNPhLvVyXL3KNeSU7UP0jU3dAB7Dh/6QQ7P8M6DYDQWpFwFsoeYHPnV/jKaHbH9c5HOC0lhoiUiapZmRGPbL1TL0d3McAs6NiR2nm3kE0KcdfggXLbmxugPWi4qrGt45XCJbldhKJ0FlXLB+y6644ZcWsRLrla2+AHlfWdo/8a0Bnyq5KXIk2dkkJefX0IesFL+0rk0fT+sqaX5iLgOsieHNG93EAh/M2y6GK3cr5o41fMfR6YGjzWgqAm71cI4fWM21MNJ3JEFiIqoIzkg4OgdqEjrUt2D+9S+1MpXLSwOuoxsDvQ3dlZRfZ2JNrxisj6pj368C3euknvFtAsoR6M8uVcILIdwcbaznApTVvd+CAFB6yFyO/cITBnS6xu9B3k20r2vlH69NWrzxFF1wacJmTt/t3br1eCFOivEi25109LQqgqVUljnVx9FVXb/Azr4BHUa0XJOTazAWRfONiOQ4WATiBnyrM2xaCdjOcnvGvYvGTz01Ls8sG4kPOXfX49lMeMgGeBl47BtGKZjDGmhsPoXbDa9oDCp6JkvDUDVeYsW691RuM1uGqcQr8HCJm3av8PGoC6u6ORfvKlEhELwvMso/kB1s1KtbGDixPXHGfvLGEW7bJCZ3tu5zxXII=
+  bucket: www.genieurbs.com
+  skip_cleanup: true
+  region: us-east-1
