@@ -5,7 +5,11 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY 
-  bucket: "www.genieurbs.com"
-  endpoint: "www.genieurbs.com.s3-website-us-east-1.amazonaws.com"
+  bucket: www.genieurbs.com
+  endpoint: www.genieurbs.com.s3-website-us-east-1.amazonaws.com
   skip_cleanup: true
+  acl: public_read
   region: us-east-1
+notifications:
+    email:
+        on_failure: always
