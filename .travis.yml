@@ -8,4 +8,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: kmurugulla/genieurbs
-    branch:master
+    branch: master
