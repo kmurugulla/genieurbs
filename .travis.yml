@@ -9,4 +9,3 @@ deploy:
   on:
     repo: kmurugulla/genieurbs
     branch:master
-    tags:true
