@@ -1,0 +1,7 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAIJUBUSFHFF64FB4Q"
+  secret_access_key: "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"
+  bucket: "www.genieurbs.com"
+  skip_cleanup: true
+  region: us-east-1
