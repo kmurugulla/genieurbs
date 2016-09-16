@@ -3,9 +3,8 @@ branches:
   - master
 deploy:
   provider: s3
-  access_key_id: "AKIAIMRQIOEXQ7NIBFVQ"
-  secret_access_key:
-    secure: "puEV8WYuO5U8hiKDN91h1IKOLAh957ca5Zaj/hFXZ4gI+P1QM5EdncqA6FFEIiohxuYjgushQVUW05NmfgWKwziBWZO4w93U/Jr8XYtr668PA+X9AkdyTmoKUqzX/LzZwweeScy7cJEaew79EOrNU8fVoj5C3nQvw5sNgIShcP23nEmB/1L3z35azABvOx4dVtnx3yVaQRW8oSRMUGh1ON8jsDtV0T4KlkFZw5bJm7pDOSZAo0Pgig6SqR+fxmsaPHEGc/nTD5LLyVX0HIInGnO0V1OZka1nHNZZLdnjtxDkWn5fG8Jo8YlLNQZuv1LKq+2vQQpgqjnIG3nAUAAH9WMpAHvB0yHQbHnRmOev4ZrRr601Dv9g5IGKWzG1akAPUniP4jFnJmdU4iseyIdvnNVZcf1vJnQng3p7E/wnIYCH1DYkIr/KRAAFKxyNvWMWR+r1drzQbM+u6GVl5fPUc78PfEpb/PpAYzxxBMHP8yy5jCTEyT3qjnmNNywLjdoulxLDDbUlfryoCFLTvmuo1ppIi2EroYzjwrNU9ao+9sUMUVBpQUuVNRNvptmnlTYgHLcvnxTe3feV2iFRPPwmRPnq5TLedBjrjx2WkmjZezRCQ6Lsgum/EURUarZ5vbK+9rKceCZEDakwy4S8dRqwcC6BIQXi7gcYiDlImMNS+1o="
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY 
   bucket: "www.genieurbs.com"
   endpoint: "www.genieurbs.com.s3-website-us-east-1.amazonaws.com"
   skip_cleanup: true
