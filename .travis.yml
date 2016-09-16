@@ -1,0 +1,11 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAIMRQIOEXQ7NIBFVQ
+  secret_access_key:
+    secure: j19BMyiAk4g4AnUjfNXns8/PV9LSxBVI7sB+l7aRYbFO4YpzcOOEvMXmCX7MxtQh04zNesSI62XM39TNadPVXcrAYPClcuJgG2GvV6slOsLHaruE2voQpd8NqynWnUVJ7j1ND+cRDsIAirseEjsY+9DRownVtQy9u0Wq349C8O+iJu/j0V6QRbcg1pTjjdjnZLZ46NHf0cqImMUo9HUMAtHE3aLGdp3nr2arcesUR1+AtNqnOl/00KuYbUF9diZLvJ0T4ZPZ+dIEZq2pWbkqJvaaDslYktDekvb92wFY+0w0PXtyCwzc0Ir1/WuWosQmjAZ4+nPt3Kr5tgWszvtD7B4hM7M+ZUql94m5NkjF42vOgAhs+WgCrei5qCNA8DuKpzbM6y9xQgwdKPjliGhBCjmLYw/5s6Aq4+55wEx4yT8ucD3jWnvALEEztzBxCR7GYXLGWtAj74lCST9f4XSM7LZdNqByAzVYB6wRZ/mQKPcjMScnY11zf3WOq8BqLuIrfvGVmpT7fGe4TVz8UfiR3FZuujJcEAzq+SZIBD6CcdjQMxxVarQvH/ZIgcCYxDQ8bjScDuMezvFdrVbgDtsvmTio9cwPPa/1osdppibGgT8v3nQnAmqYaH/cLDSHzSS1l8sNdEc6aw1uSKrjJavjTXPOS9cVDoe4XQV3bISRIfk=
+  bucket: www.genieurbs.com
+  acl: public_read
+  skip_cleanup: true
+  on:
+    repo: kmurugulla/genieurbs
+    branch: master
